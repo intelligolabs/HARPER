@@ -45,6 +45,8 @@ data
 
 ```
 
+In the `harper_3d_120` and `harper_3d_30` folders you will find the 3D panoptic data at 120 Hz and 30 Hz respectively, both with train and test split.
+
 Each `.pkl` file contains a dictionary with the frame index as key and the following values:
 - `frame`: the frame index
 - `subject`: the subject id
