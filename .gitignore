@@ -1,0 +1,7 @@
+# ignore temp/dev files
+.vscode
+__pycache__/
+
+# keep data directory
+data/*
+!data/.keep
