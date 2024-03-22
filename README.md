@@ -7,8 +7,10 @@ Abstract:
 
 We introduce **HARPER**, a novel dataset for 3D body pose estimation and forecast in dyadic interactions between users and Spot, the quadruped robot manufactured by Boston Dynamics. The key-novelty is the focus on the robot's perspective, i.e., on the data captured by the robot's sensors. These make 3D body pose analysis challenging because being close to the ground captures humans only partially. The scenario underlying **HARPER** includes 15 actions, of which 10 involve physical contact between the robot and users. The Corpus contains not only the recordings of the built-in stereo cameras of Spot, but also those of a 6-camera OptiTrack system (all recordings are synchronized). This leads to ground-truth skeletal representations with a precision lower than a millimeter. In addition, the Corpus includes reproducible benchmarks on 3D Human Pose Estimation, Human Pose Forecasting, and Collision Prediction, all based on publicly available baseline approaches. This enables future HARPER users to rigorously compare their results with those we provide in this work.
 
-<!-- Insert image -->
-![HARPER Overview](images/Teaser.png "HARPER Overview. The dataset includes 3D human pose and robot pose data, as well as the robot's perspective. The dataset is designed for 3D human pose estimation and forecasting tasks.")
+<p align="center">
+    <img src="images/Teaser.png" alt="HARPER Overview" width="600px">
+</p>
+
 
 <!-- ## Dataset Description
 Refer to main paper - coming soon!
