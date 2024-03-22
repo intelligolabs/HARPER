@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from tools.utils_io import load_pickle
+from tools.utils_io import load_pkl
 from tools.links import human_links, spot_links
 
 
 def visualize(pkl_file: str):
     # NOTE: the optitrack system has Y up
-    data: dict = load_pickle(pkl_file)
+    data: dict = load_pkl(pkl_file)
 
     fig = plt.figure()
     ax = fig.add_subplot(111, projection="3d")
