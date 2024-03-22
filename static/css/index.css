@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Google Sans', sans-serif;
 }
 
 
@@ -49,6 +49,11 @@ body {
 
 .publication-title {
     font-family: 'Google Sans', sans-serif;
+}
+
+.publication-subtitle {
+    color: #555;
+    line-height: normal;
 }
 
 .publication-authors {
@@ -154,4 +159,21 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+
+.feature-list {
+  padding-right: 6em;
+  list-style: disc;
+}
+
+@media all and (max-width: 768px) {
+  .feature-list {
+    padding-right: 0;
+  }
+    
+}
+
+.publication-links {
+  margin-bottom: 2em;
 }
