@@ -1,13 +1,22 @@
 # Exploring 3D Human Pose Estimation and Forecasting from the Robot’s Perspective: The HARPER Dataset
+[![arXiv](https://img.shields.io/badge/arXiv-2403.14447-b31b1b.svg)](https://arxiv.org/abs/2403.14447)
 
 We propose the Human from an Articulated Robot Perspective: the HARPER dataset!
+Abstract:
+We introduce HARPER, a novel dataset for 3D body pose estimation and forecast in dyadic interactions between users and Spot, the quadruped robot manufactured by Boston Dynamics. The key-novelty is the focus on the robot's perspective, i.e., on the data captured by the robot's sensors. These make 3D body pose analysis challenging because being close to the ground captures humans only partially. The scenario underlying HARPER includes 15 actions, of which 10 involve physical contact between the robot and users. The Corpus contains not only the recordings of the built-in stereo cameras of Spot, but also those of a 6-camera OptiTrack system (all recordings are synchronized). This leads to ground-truth skeletal representations with a precision lower than a millimeter. In addition, the Corpus includes reproducible benchmarks on 3D Human Pose Estimation, Human Pose Forecasting, and Collision Prediction, all based on publicly available baseline approaches. This enables future HARPER users to rigorously compare their results with those we provide in this work.
 
 
-## Dataset Description
+<!-- ## Dataset Description
 Refer to main paper - coming soon!
 
 ## Dataset Splits
 Coming soon!
+-->
+
+### NOTE
+We are working hard to prepare the dataset for release, including instructions and baselines. 
+Up to now, you can download the panoptic 3D data, particularly if you are interested in 3D human pose forecasting tasks.
+The full dataset, including the robot's perspective, is coming soon!
 
 ## 3D panoptic data
 The dataset has two points of view: the panoptic point of view and the robot's perspective point of view. 
@@ -62,8 +71,3 @@ To visualize the 3D panoptic data you can use the following code:
 ```bash
 PYTHONPATH=. python tools/visualization/visualize_3d.py --pkl_file ./data/harper_3d_30/train/cun_act1_30hz.pkl
 ```
-
-
-## Complete Dataset
-Coming soon!
-In the meantime you can take a look at the 3D panoptic data, particularly if you are interested in 3D human pose forecasting tasks.
