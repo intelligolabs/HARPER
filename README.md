@@ -1,4 +1,5 @@
-# Exploring 3D Human Pose Estimation and Forecasting from the Robot’s Perspective: The HARPER Dataset
+## Exploring 3D Human Pose Estimation and Forecasting from the Robot’s Perspective: The HARPER Dataset
+### Andrea Avogaro, Andrea Toaiari, Federico Cunico, Xiangmin Xu, Haralambos Dafas, Alessandro Vinciarelli, Emma Li, and Marco Cristani
 [![arXiv](https://img.shields.io/badge/arXiv-2403.14447-b31b1b.svg)](https://arxiv.org/abs/2403.14447)
 
 This is the official code page for the **H**uman from an **A**rticulated **R**obot **Per**spective (**HARPER**) dataset!
