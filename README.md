@@ -78,7 +78,8 @@ To visualize the 3D panoptic data you can use the following code:
 ```bash
 PYTHONPATH=. python tools/visualization/visualize_3d.py --pkl_file ./data/harper_3d_30/train/cun_act1_30hz.pkl
 ```
-## Citation
+
+<!-- ## Citation
 If you are using this dataset or you find useful for your research, cite us!
 ```
 @article{avogaro2024exploring,
@@ -90,3 +91,4 @@ If you are using this dataset or you find useful for your research, cite us!
       primaryClass={cs.CV}
 }
 ```
+-->
