@@ -78,3 +78,15 @@ To visualize the 3D panoptic data you can use the following code:
 ```bash
 PYTHONPATH=. python tools/visualization/visualize_3d.py --pkl_file ./data/harper_3d_30/train/cun_act1_30hz.pkl
 ```
+## Citation
+If you are using this dataset or you find useful for your research, cite us!
+```
+@article{avogaro2024exploring,
+      title={Exploring 3D Human Pose Estimation and Forecasting from the Robot's Perspective: The HARPER Dataset}, 
+      author={Andrea Avogaro and Andrea Toaiari and Federico Cunico and Xiangmin Xu and Haralambos Dafas and Alessandro Vinciarelli and Emma Li and Marco Cristani},
+      year={2024},
+      eprint={2403.14447},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
