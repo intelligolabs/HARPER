@@ -5,3 +5,5 @@ __pycache__/
 # keep data directory
 data/*
 !data/.keep
+
+viz_*.png

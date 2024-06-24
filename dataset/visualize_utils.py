@@ -77,7 +77,7 @@ def show_subject(dataset_path, subject_name):
 
     plt.savefig(f"viz_subject_{subject_name}.png")
 
-    print("Done.")
+    print(f"Viz done for {subject_name}.")
 
 
 def load_pkl(path):
@@ -87,4 +87,8 @@ def load_pkl(path):
 
 if __name__ == "__main__":
     dataset_path = "data/harper"
-    show_subject(dataset_path, "cun")
+    # fmt: off
+    subjects = ["avo", "bn", "cun", "el", "h", "j", "jk", "mt", "ric", "ry", "sh", "son", "t", "toa", "xu", "xy", "yf"]
+    # fmt: on
+    for subject in subjects:
+        show_subject(dataset_path, subject)
