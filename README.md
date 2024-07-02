@@ -20,10 +20,18 @@ Refer to main paper - coming soon!
 Coming soon!
 -->
 
-### NOTE
+<!-- ### NOTE
 We are working hard to prepare the dataset for release, including instructions and baselines. 
 Up to now, you can download the panoptic 3D data, particularly if you are interested in 3D human pose forecasting tasks.
-The full dataset, including the robot's perspective, is coming soon!
+The full dataset, including the robot's perspective, is coming soon! -->
+
+## Dataset download
+
+Run the following command to download the dataset:
+
+```bash
+PYTHONPATH=. python download/harper_downloader.py --dst_folder ./data
+```
 
 ## 3D panoptic data
 The dataset has two points of view: the panoptic point of view and the robot's perspective point of view. 
@@ -33,7 +41,7 @@ For the sake of completeness, we provide the 3D panoptic data [here](https://uni
 To download and create the data structure with train and test splits you can use the following code:
 
 ```bash
-PYTHONPATH=. python download/harper_3d_downloader.py --dst_folder ./data
+PYTHONPATH=. python download/harper_only_3d_downloader.py.py --dst_folder ./data
 ```
 
 This will generate the following tree structure:
