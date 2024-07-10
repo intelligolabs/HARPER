@@ -33,7 +33,12 @@ Run the following command to download the dataset:
 PYTHONPATH=. python download/harper_downloader.py --dst_folder ./data
 ```
 
-## 3D panoptic data
+Data structure: 
+```bash
+-coming soon-
+```
+
+## 3D data only (no images)
 The dataset has two points of view: the panoptic point of view and the robot's perspective point of view. 
 The first one is obtained using a 6-camera OptiTrack MoCap system. Thanks to it, the human skeleton pose (21x3) and the Spot skeleton can be located in the same 3D reference system.
 
@@ -86,6 +91,10 @@ To visualize the 3D panoptic data you can use the following code:
 ```bash
 PYTHONPATH=. python tools/visualization/visualize_3d.py --pkl_file ./data/harper_3d_30/train/cun_act1_30hz.pkl
 ```
+
+## Important notes regarding the annotations
+Due to limits in the SPOT SDK at the time of recording, the 2D keypoints annotations were manually verified and eventually fixed to be synchronized with the frame rate obtained by the SPOT.
+For the 3D pose estimation pipeline, we lift the 2D keypoints using the depth values (see key 'visibles_3d' in the annotations). 
 
 <!-- ## Citation
 If you are using this dataset or you find useful for your research, cite us!
