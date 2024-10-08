@@ -38,6 +38,9 @@ Data structure:
 -coming soon-
 ```
 
+## External Videos
+The External RGB videos can be downloaded [here](https://univr-my.sharepoint.com/:f:/g/personal/federico_cunico_univr_it/Esk9qR4fKyFBg05UdXK0YSYBY8JvLHpY2Bis2xyX1pcVWg). However right now they are not aligned/synchronized with the rest of the data. You may want to try to synchronize using the recording time saved in the file's name. However, due to limitations in SPOT SDK, this is the best solution you can have.
+
 ## 3D data only (no images)
 The dataset has two points of view: the panoptic point of view and the robot's perspective point of view. 
 The first one is obtained using a 6-camera OptiTrack MoCap system. Thanks to it, the human skeleton pose (21x3) and the Spot skeleton can be located in the same 3D reference system.
