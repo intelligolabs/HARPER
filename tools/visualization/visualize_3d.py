@@ -1,3 +1,5 @@
+## AUTHOR: Federico Cunico, see https://github.com/federicocunico/open3d_wrapper
+
 import matplotlib.pyplot as plt
 import numpy as np
 from tools.utils_io import load_pkl
