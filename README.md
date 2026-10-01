@@ -26,7 +26,7 @@ Up to now, you can download the panoptic 3D data, particularly if you are intere
 The full dataset, including the robot's perspective, is coming soon! -->
 
 ## Dataset download
-
+<!-- 
 Run the following command to download the dataset:
 
 ```bash
@@ -37,15 +37,18 @@ Data structure:
 ```bash
 -coming soon-
 ```
+-->
+Data is available [here](https://univr-my.sharepoint.com/:f:/g/personal/federico_cunico_univr_it/IgDJPakeHyshQYNOVHVytGEmAWPCbyx6WNgYrNscl9aXFVo?e=bRm29a)
+> NOTE: Due to limitations in OneDrive link sharing, for now download/harper_downloader.py is not updated nor maintained. Download data from above.
 
 ## External Videos
-The External RGB videos can be downloaded [here](https://univr-my.sharepoint.com/:f:/g/personal/federico_cunico_univr_it/Esk9qR4fKyFBg05UdXK0YSYBY8JvLHpY2Bis2xyX1pcVWg). However right now they are not aligned/synchronized with the rest of the data. You may want to try to synchronize using the recording time saved in the file's name. However, due to limitations in SPOT SDK, this is the best solution you can have.
+The External RGB videos can be downloaded form link above. However right now they are not aligned/synchronized with the rest of the data. You may want to try to synchronize using the recording time saved in the file's name. However, due to limitations in SPOT SDK, this is the best solution you can have.
 
 ## 3D data only (no images)
 The dataset has two points of view: the panoptic point of view and the robot's perspective point of view. 
 The first one is obtained using a 6-camera OptiTrack MoCap system. Thanks to it, the human skeleton pose (21x3) and the Spot skeleton can be located in the same 3D reference system.
 
-For the sake of completeness, we provide the 3D panoptic data [here](https://univr-my.sharepoint.com/:f:/g/personal/federico_cunico_univr_it/Esk9qR4fKyFBg05UdXK0YSYBY8JvLHpY2Bis2xyX1pcVWg). 
+For the sake of completeness, we provide the 3D panoptic data aswell. 
 To download and create the data structure with train and test splits you can use the following code:
 
 ```bash
